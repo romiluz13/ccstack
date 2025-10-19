@@ -2,7 +2,7 @@
 
 **Complete AI development system with 21 auto-activated Skills and hooks automation.**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/yourusername/production-skills-framework/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/romiluz13/ccstack/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Plugins](https://img.shields.io/badge/plugins-7-orange)]()
 [![Skills](https://img.shields.io/badge/skills-21-purple)]()
@@ -42,8 +42,8 @@ Unique innovation combining three layers:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/production-skills-framework.git
-cd production-skills-framework
+git clone https://github.com/romiluz13/ccstack.git
+cd ccstack
 
 # Run installation
 ./.claude-plugin/scripts/install.sh
@@ -54,8 +54,8 @@ cd production-skills-framework
 
 **Or use Claude Code:**
 ```
-/plugin marketplace add https://github.com/yourusername/production-skills-framework
-/plugin install production-skills-framework
+/plugin marketplace add https://github.com/romiluz13/ccstack
+/plugin install ccstack
 ```
 
 ### Your First Task
