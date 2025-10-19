@@ -424,5 +424,5 @@ After setting up MCP:
 
 ---
 
-**Questions?** Open an issue: https://github.com/yourusername/production-skills-framework/issues
+**Questions?** Open an issue: https://github.com/romiluz13/ccstack/issues
 

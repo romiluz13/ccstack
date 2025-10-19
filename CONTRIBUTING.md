@@ -70,11 +70,11 @@ Thank you for your interest in contributing! This document provides guidelines a
 # Click "Fork" on GitHub
 
 # 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/production-skills-framework.git
-cd production-skills-framework
+git clone https://github.com/romiluz13/ccstack.git
+cd ccstack
 
 # 3. Add upstream remote
-git remote add upstream https://github.com/yourusername/production-skills-framework.git
+git remote add upstream https://github.com/romiluz13/ccstack.git
 
 # 4. Create a branch
 git checkout -b feature/your-feature-name
@@ -101,7 +101,7 @@ git push origin feature/your-feature-name
 ## Project Structure
 
 ```
-production-skills-framework/
+ccstack/
 ├── .claude-plugin/          # Plugin configuration
 │   ├── plugin.json          # Plugin metadata
 │   ├── marketplace.json     # Marketplace config
@@ -398,8 +398,8 @@ Before submitting your PR:
 
 ## Questions?
 
-- **Issues**: https://github.com/yourusername/production-skills-framework/issues
-- **Discussions**: https://github.com/yourusername/production-skills-framework/discussions
+- **Issues**: https://github.com/romiluz13/ccstack/issues
+- **Discussions**: https://github.com/romiluz13/ccstack/discussions
 
 ---
 

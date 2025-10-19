@@ -20,10 +20,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/production-skills-framework.git
+git clone https://github.com/romiluz13/ccstack.git
 
 # Navigate to directory
-cd production-skills-framework
+cd ccstack
 
 # Run installation
 ./.claude-plugin/scripts/install.sh
@@ -33,17 +33,17 @@ cd production-skills-framework
 
 ```bash
 # Add marketplace
-/plugin marketplace add https://github.com/yourusername/production-skills-framework
+/plugin marketplace add https://github.com/romiluz13/ccstack
 
 # Install plugin
-/plugin install production-skills-framework
+/plugin install ccstack
 ```
 
 ### Method 3: Claude Plugins CLI
 
 ```bash
 # One-command installation
-npx claude-plugins install @yourusername/production-skills-framework
+npx claude-plugins install ccstack
 ```
 
 ---
@@ -153,7 +153,7 @@ Only add MCP if you specifically need external tool integrations.
 
 ## Support
 
-- **Issues**: https://github.com/yourusername/production-skills-framework/issues
-- **Discussions**: https://github.com/yourusername/production-skills-framework/discussions
-- **Documentation**: https://github.com/yourusername/production-skills-framework/wiki
+- **Issues**: https://github.com/romiluz13/ccstack/issues
+- **Discussions**: https://github.com/romiluz13/ccstack/discussions
+- **Documentation**: https://github.com/romiluz13/ccstack/wiki
 

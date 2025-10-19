@@ -1,14 +1,14 @@
 {
-  "name": "production-skills-framework",
+  "name": "ccstack",
   "owner": {
     "name": "Your Name / Organization",
-    "url": "https://github.com/yourusername"
+    "url": "https://github.com/romiluz13"
   },
   "metadata": {
     "description": "Complete AI development system with 21 auto-activated Skills, hooks automation, and MCP integration",
     "version": "1.0.0",
-    "homepage": "https://github.com/yourusername/production-skills-framework",
-    "repository": "https://github.com/yourusername/production-skills-framework.git",
+    "homepage": "https://github.com/romiluz13/ccstack",
+    "repository": "https://github.com/romiluz13/ccstack.git",
     "license": "MIT",
     "tags": [
       "claude-skills",

@@ -198,7 +198,7 @@ production/
 
 2. **GitHub Upload**
    ```bash
-   git remote add origin https://github.com/yourusername/production-skills-framework.git
+   git remote add origin https://github.com/romiluz13/ccstack.git
    git branch -M main
    git push -u origin main
    ```

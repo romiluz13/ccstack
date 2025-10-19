@@ -7,7 +7,7 @@ Complete technical reference for the Production Skills Framework.
 ## 📁 Directory Structure
 
 ```
-production-skills-framework/
+ccstack/
 ├── .claude-plugin/              # Plugin configuration
 │   ├── plugin.json              # Plugin metadata + MCP servers
 │   ├── marketplace.json         # Marketplace metadata
@@ -438,5 +438,5 @@ npx -y @modelcontextprotocol/server-filesystem .
 
 ---
 
-**Questions?** Open an issue: https://github.com/yourusername/production-skills-framework/issues
+**Questions?** Open an issue: https://github.com/romiluz13/ccstack/issues
 
