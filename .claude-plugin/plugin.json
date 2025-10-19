@@ -1,0 +1,46 @@
+{
+  "name": "production-skills-framework",
+  "version": "1.0.0",
+  "description": "Complete AI development system combining dotai orchestration with 21 auto-activated Skills, hooks automation, and MCP integration. Features context intelligence, memory management, code quality, API excellence, testing, security, and documentation skills.",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "homepage": "https://github.com/yourusername/production-skills-framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/production-skills-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/production-skills-framework/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-skills",
+    "ai-development",
+    "dotai",
+    "context-optimization",
+    "memory-management",
+    "code-quality",
+    "api-development",
+    "testing-automation",
+    "security-hardening",
+    "documentation",
+    "mcp-integration",
+    "hooks-automation"
+  ],
+  "category": "development",
+  "tags": [
+    "productivity",
+    "automation",
+    "ai",
+    "skills",
+    "orchestration",
+    "hybrid-architecture"
+  ],
+  "engines": {
+    "claudeCode": ">=2.0.0",
+    "node": ">=20.0.0"
+  },
+}
+

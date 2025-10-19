@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [{
+      "hooks": [{
+        "type": "command",
+        "command": "/bin/bash .claude-plugin/scripts/session-start.sh"
+      }]
+    }],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [{
+          "type": "command",
+          "command": "cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\\n' '\\0' | xargs -0 -I {} /bin/bash .claude-plugin/scripts/post-edit-security.sh '{}'"
+        }]
+      }
+    ],
+    "PreCommit": [{
+      "hooks": [{
+        "type": "command",
+        "command": "/bin/bash .claude-plugin/scripts/pre-commit-validate.sh"
+      }]
+    }]
+  }
+}
+

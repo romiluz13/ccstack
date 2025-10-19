@@ -1,0 +1,172 @@
+{
+  "name": "production-skills-framework",
+  "owner": {
+    "name": "Your Name / Organization",
+    "url": "https://github.com/yourusername"
+  },
+  "metadata": {
+    "description": "Complete AI development system with 21 auto-activated Skills, hooks automation, and MCP integration",
+    "version": "1.0.0",
+    "homepage": "https://github.com/yourusername/production-skills-framework",
+    "repository": "https://github.com/yourusername/production-skills-framework.git",
+    "license": "MIT",
+    "tags": [
+      "claude-skills",
+      "ai-development",
+      "dotai",
+      "context-optimization",
+      "hooks-automation",
+      "mcp-integration",
+      "hybrid-architecture"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "dotai-enhanced",
+      "version": "1.0.0",
+      "description": "Enhanced dotai with Skills compatibility - All 15 proven commands",
+      "path": "plugins/dotai-enhanced",
+      "enabled": true,
+      "commands": 15,
+      "skills": 0,
+      "type": "orchestration"
+    },
+    {
+      "name": "context-intelligence",
+      "version": "1.0.0",
+      "description": "Context optimization and token efficiency Skills",
+      "path": "plugins/context-intelligence",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "context-optimizer",
+        "token-efficiency",
+        "semantic-search"
+      ]
+    },
+    {
+      "name": "memory-management",
+      "version": "1.0.0",
+      "description": "Session continuity and knowledge retention Skills",
+      "path": "plugins/memory-management",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "session-continuity",
+        "knowledge-retention",
+        "context-history"
+      ]
+    },
+    {
+      "name": "code-quality-pro",
+      "version": "1.0.0",
+      "description": "Architecture patterns, refactoring, and code review Skills",
+      "path": "plugins/code-quality-pro",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "architecture-patterns",
+        "refactoring-strategies",
+        "code-review-checklist"
+      ]
+    },
+    {
+      "name": "api-excellence",
+      "version": "1.0.0",
+      "description": "REST, GraphQL, and API security Skills",
+      "path": "plugins/api-excellence",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "rest-design-principles",
+        "graphql-schema-design",
+        "api-security-patterns"
+      ]
+    },
+    {
+      "name": "testing-automation",
+      "version": "1.0.0",
+      "description": "Test coverage, TDD, and E2E testing Skills",
+      "path": "plugins/testing-automation",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "test-coverage-strategy",
+        "tdd-workflow",
+        "e2e-testing-patterns"
+      ]
+    },
+    {
+      "name": "security-hardening",
+      "version": "1.0.0",
+      "description": "Authentication, validation, and security audit Skills",
+      "path": "plugins/security-hardening",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "auth-patterns",
+        "input-validation",
+        "security-audit"
+      ]
+    },
+    {
+      "name": "documentation-excellence",
+      "version": "1.0.0",
+      "description": "API docs, architecture docs, and code comment Skills",
+      "path": "plugins/documentation-excellence",
+      "enabled": true,
+      "commands": 0,
+      "skills": 3,
+      "type": "enhancement",
+      "skillsList": [
+        "api-documentation",
+        "architecture-docs",
+        "code-comments"
+      ]
+    }
+  ],
+  "statistics": {
+    "totalPlugins": 8,
+    "totalCommands": 15,
+    "totalSkills": 21,
+    "totalComponents": 36
+  },
+  "researchSources": [
+    {
+      "name": "wshobson/agents",
+      "stars": 18380,
+      "contribution": "Granular architecture, 63 plugins, 47 Skills, hybrid orchestration"
+    },
+    {
+      "name": "udecode/dotai",
+      "stars": 1045,
+      "contribution": "Proven orchestration system, all 15 commands"
+    },
+    {
+      "name": "obra/superpowers-skills",
+      "stars": 303,
+      "contribution": "Community Skills patterns, mandatory workflows"
+    }
+  ],
+  "architecture": {
+    "approach": "hybrid",
+    "layers": 3,
+    "tokenEfficiency": "8000-15000 tokens (83% reduction)",
+    "progressiveDisclosure": true,
+    "autoActivation": true,
+    "userControl": "full"
+  }
+}
+

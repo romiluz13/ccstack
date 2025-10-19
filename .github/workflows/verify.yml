@@ -1,0 +1,67 @@
+name: Verify System
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    name: Verify Production System
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install Python dependencies
+        run: |
+          pip install tiktoken
+      
+      - name: Make scripts executable
+        run: |
+          chmod +x .claude-plugin/scripts/*.sh
+          find plugins -name "*.py" -exec chmod +x {} \;
+      
+      - name: Run system verification
+        run: |
+          ./.claude-plugin/scripts/verify.sh
+      
+      - name: Test hook scripts
+        run: |
+          echo "Testing session-start hook..."
+          ./.claude-plugin/scripts/session-start.sh
+          
+          echo "Testing pre-commit hook..."
+          ./.claude-plugin/scripts/pre-commit-validate.sh
+      
+      - name: Validate JSON files
+        run: |
+          echo "Validating plugin.json..."
+          cat .claude-plugin/plugin.json | jq empty
+          
+          echo "Validating marketplace.json..."
+          cat .claude-plugin/marketplace.json | jq empty
+          
+          echo "Validating hooks.json..."
+          cat .claude-plugin/hooks/hooks.json | jq empty
+      
+      - name: Count components
+        run: |
+          echo "=== System Inventory ==="
+          echo "Plugins: $(find plugins -maxdepth 1 -type d ! -path plugins | wc -l)"
+          echo "Skills: $(find plugins -name "SKILL.md" | wc -l)"
+          echo "Scripts: $(find plugins -name "*.py" | wc -l)"
+          echo "Hooks: $(ls -1 .claude-plugin/scripts/*.sh | wc -l)"
+
