@@ -1,10 +1,10 @@
 {
   "name": "ccstack",
   "version": "1.0.0",
-  "description": "Complete AI development system combining dotai orchestration with 21 auto-activated Skills, hooks automation, and MCP integration. Features context intelligence, memory management, code quality, API excellence, testing, security, and documentation skills.",
+  "description": "Revolutionary hybrid AI development system with 21 auto-activated Skills and hooks automation. Combines manual sub-agents (dotai) with automatic Skills enhancement for context intelligence, memory management, code quality, API excellence, testing, security, and documentation.",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Rom Iluz",
+    "email": "rom.iluz@gmail.com"
   },
   "homepage": "https://github.com/romiluz13/ccstack",
   "repository": {
@@ -17,6 +17,7 @@
   "license": "MIT",
   "keywords": [
     "claude-skills",
+    "claude-plugins",
     "ai-development",
     "dotai",
     "context-optimization",
@@ -26,8 +27,8 @@
     "testing-automation",
     "security-hardening",
     "documentation",
-    "mcp-integration",
-    "hooks-automation"
+    "hooks-automation",
+    "hybrid-architecture"
   ],
   "category": "development",
   "tags": [

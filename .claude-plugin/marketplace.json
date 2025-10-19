@@ -1,172 +1,180 @@
 {
   "name": "ccstack",
   "owner": {
-    "name": "Your Name / Organization",
+    "name": "Rom Iluz",
+    "email": "rom.iluz@gmail.com",
     "url": "https://github.com/romiluz13"
   },
   "metadata": {
-    "description": "Complete AI development system with 21 auto-activated Skills, hooks automation, and MCP integration",
+    "description": "Revolutionary hybrid AI development system with 21 auto-activated Skills and hooks automation. Combines manual sub-agents with automatic Skills enhancement.",
     "version": "1.0.0",
     "homepage": "https://github.com/romiluz13/ccstack",
-    "repository": "https://github.com/romiluz13/ccstack.git",
+    "repository": "https://github.com/romiluz13/ccstack",
     "license": "MIT",
-    "tags": [
+    "keywords": [
       "claude-skills",
+      "claude-plugins",
       "ai-development",
-      "dotai",
+      "hybrid-architecture",
       "context-optimization",
       "hooks-automation",
-      "mcp-integration",
-      "hybrid-architecture"
+      "development-framework"
     ]
   },
   "plugins": [
     {
-      "name": "dotai-enhanced",
+      "name": "api-excellence",
+      "source": "./plugins/api-excellence",
+      "description": "REST, GraphQL, and API security Skills for building production-grade APIs",
       "version": "1.0.0",
-      "description": "Enhanced dotai with Skills compatibility - All 15 proven commands",
-      "path": "plugins/dotai-enhanced",
-      "enabled": true,
-      "commands": 15,
-      "skills": 0,
-      "type": "orchestration"
-    },
-    {
-      "name": "context-intelligence",
-      "version": "1.0.0",
-      "description": "Context optimization and token efficiency Skills",
-      "path": "plugins/context-intelligence",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "context-optimizer",
-        "token-efficiency",
-        "semantic-search"
-      ]
-    },
-    {
-      "name": "memory-management",
-      "version": "1.0.0",
-      "description": "Session continuity and knowledge retention Skills",
-      "path": "plugins/memory-management",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "session-continuity",
-        "knowledge-retention",
-        "context-history"
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["api", "rest", "graphql", "security"],
+      "category": "api-development",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/rest-design-principles",
+        "./skills/graphql-schema-design",
+        "./skills/api-security-patterns"
       ]
     },
     {
       "name": "code-quality-pro",
+      "source": "./plugins/code-quality-pro",
+      "description": "Architecture patterns, refactoring strategies, and code review checklists",
       "version": "1.0.0",
-      "description": "Architecture patterns, refactoring, and code review Skills",
-      "path": "plugins/code-quality-pro",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "architecture-patterns",
-        "refactoring-strategies",
-        "code-review-checklist"
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["code-quality", "refactoring", "architecture"],
+      "category": "code-quality",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/architecture-patterns",
+        "./skills/refactoring-strategies",
+        "./skills/code-review-checklist"
       ]
     },
     {
-      "name": "api-excellence",
+      "name": "context-intelligence",
+      "source": "./plugins/context-intelligence",
+      "description": "Context optimization, token efficiency, and semantic search Skills",
       "version": "1.0.0",
-      "description": "REST, GraphQL, and API security Skills",
-      "path": "plugins/api-excellence",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "rest-design-principles",
-        "graphql-schema-design",
-        "api-security-patterns"
-      ]
-    },
-    {
-      "name": "testing-automation",
-      "version": "1.0.0",
-      "description": "Test coverage, TDD, and E2E testing Skills",
-      "path": "plugins/testing-automation",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "test-coverage-strategy",
-        "tdd-workflow",
-        "e2e-testing-patterns"
-      ]
-    },
-    {
-      "name": "security-hardening",
-      "version": "1.0.0",
-      "description": "Authentication, validation, and security audit Skills",
-      "path": "plugins/security-hardening",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "auth-patterns",
-        "input-validation",
-        "security-audit"
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["context", "optimization", "tokens"],
+      "category": "optimization",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/context-optimizer",
+        "./skills/token-efficiency",
+        "./skills/semantic-search"
       ]
     },
     {
       "name": "documentation-excellence",
+      "source": "./plugins/documentation-excellence",
+      "description": "API documentation, architecture docs, and code comment Skills",
       "version": "1.0.0",
-      "description": "API docs, architecture docs, and code comment Skills",
-      "path": "plugins/documentation-excellence",
-      "enabled": true,
-      "commands": 0,
-      "skills": 3,
-      "type": "enhancement",
-      "skillsList": [
-        "api-documentation",
-        "architecture-docs",
-        "code-comments"
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["documentation", "api-docs", "architecture"],
+      "category": "documentation",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/api-documentation",
+        "./skills/architecture-docs",
+        "./skills/code-comments"
+      ]
+    },
+    {
+      "name": "memory-management",
+      "source": "./plugins/memory-management",
+      "description": "Session continuity, knowledge retention, and context history Skills",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["memory", "session", "continuity"],
+      "category": "memory",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/session-continuity",
+        "./skills/knowledge-retention",
+        "./skills/context-history"
+      ]
+    },
+    {
+      "name": "security-hardening",
+      "source": "./plugins/security-hardening",
+      "description": "Authentication patterns, input validation, and security audit Skills",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["security", "authentication", "validation"],
+      "category": "security",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/auth-patterns",
+        "./skills/input-validation",
+        "./skills/security-audit"
+      ]
+    },
+    {
+      "name": "testing-automation",
+      "source": "./plugins/testing-automation",
+      "description": "Test coverage strategy, TDD workflow, and E2E testing patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rom Iluz",
+        "url": "https://github.com/romiluz13"
+      },
+      "homepage": "https://github.com/romiluz13/ccstack",
+      "repository": "https://github.com/romiluz13/ccstack",
+      "license": "MIT",
+      "keywords": ["testing", "tdd", "e2e"],
+      "category": "testing",
+      "commands": [],
+      "agents": [],
+      "skills": [
+        "./skills/test-coverage-strategy",
+        "./skills/tdd-workflow",
+        "./skills/e2e-testing-patterns"
       ]
     }
-  ],
-  "statistics": {
-    "totalPlugins": 8,
-    "totalCommands": 15,
-    "totalSkills": 21,
-    "totalComponents": 36
-  },
-  "researchSources": [
-    {
-      "name": "wshobson/agents",
-      "stars": 18380,
-      "contribution": "Granular architecture, 63 plugins, 47 Skills, hybrid orchestration"
-    },
-    {
-      "name": "udecode/dotai",
-      "stars": 1045,
-      "contribution": "Proven orchestration system, all 15 commands"
-    },
-    {
-      "name": "obra/superpowers-skills",
-      "stars": 303,
-      "contribution": "Community Skills patterns, mandatory workflows"
-    }
-  ],
-  "architecture": {
-    "approach": "hybrid",
-    "layers": 3,
-    "tokenEfficiency": "8000-15000 tokens (83% reduction)",
-    "progressiveDisclosure": true,
-    "autoActivation": true,
-    "userControl": "full"
-  }
+  ]
 }
-
